@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Restaurante de alta cocina - Experiencia gastronómica inolvidable">
+    <title>Éclat - Restaurante de Alta Cocina</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- NAVEGACIÓN FIJA -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <a href="#inicio">Éclat</a>
+            </div>
+            
+            <!-- Botón Hamburguesa -->
+            <div class="hamburger-menu" id="hamburgerMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <!-- Menú de Navegación -->
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="#inicio" class="nav-link">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#carta" class="nav-link">Carta</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#nosotros" class="nav-link">Sobre Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contacto" class="nav-link">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- SECCIÓN HERO / INICIO -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <h1 class="hero-title">Éclat</h1>
+            <p class="hero-subtitle">Donde la tradición se encuentra con la innovación</p>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- SECCIÓN CARTA / MENÚ -->
+    <section class="carta" id="carta">
+        <div class="container">
+            <h2 class="section-title">Nuestra Carta</h2>
+            <p class="section-subtitle">Cada plato es una obra maestra de sabor y creatividad</p>
+
+            <!-- ENTRANTES -->
+            <div class="menu-category">
+                <h3 class="category-title">Entrantes</h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-header">
+                            <h4 class="dish-name">Vieiras Doradas con Espuma de Azafrán</h4>
+                            <span class="dish-price">€18</span>
+                        </div>
+                        <p class="dish-description">Vieiras frescas seleccionadas, espuma de azafrán de Castilla, microvegetales</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-header">
+                            <h4 class="dish-name">Jamón Ibérico con Melón Cantalupo</h4>
+                            <span class="dish-price">€16</span>
+                        </div>
+                        <p class="dish-description">Jamón ibérico 36 meses, melón cantalupo de Murcia, aceite de oliva virgen extra</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-header">
+                            <h4 class="dish-name">Tabla de Quesos Artesanales</h4>
+                            <span class="dish-price">€20</span>
+                        </div>
+                        <p class="dish-description">Selección de 5 quesos españoles artesanales, mermelada de higo, tostadas caseras</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-header">
+                            <h4 class="dish-name">Carpaccio de Remolacha con Rúcula</h4>
+                            <span class="dish-price">€14</span>
+                        </div>
+                        <p class="dish-description">Remolacha de proximidad en láminas finas, rúcula salvaje, queso de cabra fresco</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PLATOS PRINCIPALES -->
+            <div class="menu-category">
+                <h3 class="category-title">Platos Principales</h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-header">
+                            <h4 class="dish-name">Bacalao a la Sal con Alioli de Ajo Negro</h4>
+                            <span class="dish-price">€32</span>
+                        </div>
+                        <p class="dish-description">Bacalao salvaje cocinado a la sal, alioli de ajo negro, vegetales de temporada</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-header">
+                            <h4 class="dish-name">Carne Wagyu Asada en Piedra</h4>
+                            <span class="dish-price">€45</span>
+                        </div>
+                        <p class="dish-description">Wagyu de grado A5, cocinada en piedra volcánica, reducción de vino de Ribera</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-header">
+                            <h4 class="dish-name">Pato Asado Confitado en Naranja</h4>
+                            <span class="dish-price">€38</span>
+                        </div>
+                        <p class="dish-description">Pato confitado 48h, glaseado con naranja de Sevilla, papas paja crujientes</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-header">
+                            <h4 class="dish-name">Pasta Fresca Casera al Carbón</h4>
+                            <span class="dish-price">€28</span>
+                        </div>
+                        <p class="dish-description">Pasta negra de carbón de sepia, crema de trufa negra, parmesano 36 meses</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- POSTRES -->
+            <div class="menu-category">
+                <h3 class="category-title">Postres</h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-header">
+                            <h4 class="dish-name">Soufflé de Chocolate con Frambuesa</h4>
+                            <span class="dish-price">€12</span>
+                        </div>
+                        <p class="dish-description">Chocolate belga 72%, soufflé aireado, coulis de frambuesa fresca</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-header">
+                            <h4 class="dish-name">Tarta de Maíz con Helado de Vainilla</h4>
+                            <span class="dish-price">€10</span>
+                        </div>
+                        <p class="dish-description">Tarta de maíz dulce, helado casero de vainilla de Madagascar</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-header">
+                            <h4 class="dish-name">Mille-Feuille de Pistacho y Frambuesa</h4>
+                            <span class="dish-price">€13</span>
+                        </div>
+                        <p class="dish-description">Hojaldre casero, crema de pistacho de Sicilia, frambuesas frescas</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-header">
+                            <h4 class="dish-name">Panna Cotta de Lavanda</h4>
+                            <span class="dish-price">€11</span>
+                        </div>
+                        <p class="dish-description">Panna cotta cremosa con lavanda de Provenza, coulis de frutos rojos</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BEBIDAS -->
+            <div class="menu-category">
+                <h3 class="category-title">Bebidas</h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-header">
+                            <h4 class="dish-name">Vino Tinto Ribera del Duero Reserva</h4>
+                            <span class="dish-price">€8 / €28</span>
+                        </div>
+                        <p class="dish-description">Vino tinto de estructura y complejidad, añada 2018</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-header">
+                            <h4 class="dish-name">Champagne Brut Pommery</h4>
+                            <span class="dish-price">€12 / €45</span>
+                        </div>
+                        <p class="dish-description">Champagne francés con notas de fruta blanca y miel</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-header">
+                            <h4 class="dish-name">Agua Filtrada con Limón y Menta</h4>
+                            <span class="dish-price">€4</span>
+                        </div>
+                        <p class="dish-description">Agua purificada, limón fresco, menta aromática</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-header">
+                            <h4 class="dish-name">Café Espresso Gourmet</h4>
+                            <span class="dish-price">€3</span>
+                        </div>
+                        <p class="dish-description">Café de origen único de etiopía, tueste artesanal</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN SOBRE NOSOTROS -->
+    <section class="nosotros" id="nosotros">
+        <div class="container">
+            <div class="nosotros-content">
+                <div class="nosotros-text">
+                    <h2 class="section-title">Sobre Nosotros</h2>
+                    
+                    <h3 class="nosotros-subtitle">Nuestra Historia</h3>
+                    <p class="nosotros-paragraph">
+                        Éclat nace en 2015 de la pasión de un equipo dedicado a la excelencia culinaria. Durante más de una década, hemos consolidado nuestro compromiso con la calidad, la tradición y la innovación. Nuestro restaurante es un espacio donde cada detalle cuenta, desde la selección de ingredientes hasta la presentación de cada plato.
+                    </p>
+
+                    <h3 class="nosotros-subtitle">Nuestra Filosofía</h3>
+                    <p class="nosotros-paragraph">
+                        Creemos en el poder del producto de proximidad. Trabajamos exclusivamente con proveedores locales que comparten nuestros valores de sostenibilidad y calidad. Cada ingrediente que llega a nuestra cocina es seleccionado cuidadosamente para garantizar el mejor sabor y la máxima frescura.
+                    </p>
+
+                    <h3 class="nosotros-subtitle">Innovación y Tradición</h3>
+                    <p class="nosotros-paragraph">
+                        Nuestro chef ejecutivo combina técnicas clásicas españolas con toques contemporáneos. El resultado es una cocina que respeta la esencia de la tradición mientras abraza la modernidad, creando experiencias gastronómicas únicas e inolvidables para nuestros comensales.
+                    </p>
+                </div>
+
+                <div class="nosotros-image">
+                    <div class="image-placeholder">
+                        <span class="placeholder-icon">📷</span>
+                        <p class="placeholder-text">Espacio para fotografía del restaurante</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER / CONTACTO -->
+    <footer class="footer" id="contacto">
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h4 class="footer-title">Horario</h4>
+                <p class="footer-text">Martes - Jueves: 13:00 - 23:00</p>
+                <p class="footer-text">Viernes - Sábado: 13:00 - 00:00</p>
+                <p class="footer-text">Domingo: 13:00 - 22:00</p>
+                <p class="footer-text">Lunes: Cerrado</p>
+            </div>
+
+            <div class="footer-section">
+                <h4 class="footer-title">Ubicación</h4>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3082.8356681234567!2d-3.7037902!3d40.4168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd418eb5fffff5555%3A0x1234567890!2sMadrid!5e0!3m2!1ses!2ses!4v1234567890"
+                        class="map-iframe"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <p class="footer-text footer-phone">
+                    <strong>Teléfono:</strong> +34 91 234 5678
+                </p>
+                <p class="footer-text footer-email">
+                    <strong>Email:</strong> info@eclat.es
+                </p>
+            </div>
+
+            <div class="footer-section">
+                <h4 class="footer-title">Síguenos</h4>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Facebook">f</a>
+                    <a href="#" class="social-link" aria-label="Instagram">📷</a>
+                    <a href="#" class="social-link" aria-label="Twitter">𝕏</a>
+                    <a href="#" class="social-link" aria-label="LinkedIn">in</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Éclat Restaurante. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Script JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
